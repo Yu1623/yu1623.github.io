@@ -71,7 +71,7 @@
       <br>
       Resume            GitHub
 
-      <br> In the past years, I was fortunate to have the opportunities to work with <a href="https://www.thefengs.com/wuchang/">Professor Wu-chang Feng</a> and Dr. Ignacio de la Higuera.
+      <br> In the past years, I was fortunate to have the opportunities to work with <a href="https://www.thefengs.com/wuchang/">Professor Wu-chang Feng</a>, <a href="https://scholar.google.com/citations?user=bExOwCcAAAAJ&hl=en">Dr. Ignacio de la Higuera</a>, and <a href="https://www.galassi.org/mark/">Dr. Mark Galassi</a>.
     </td>
   </tr>
 
@@ -88,10 +88,18 @@
 
     <td height="30" colspan="2" valign="middle">
     	<strong>Projects</strong>
-	<br>Securing LLMs from Prompt Injection Attacks
-	<br>Alignment-free Analyses in Predicting Crucivirus Evolution
+	
 </td> 
 </tr>
+
+<tr>
+  <td height="30" colspan="2" valign="top" class="style1" id="llm_security">
+    <b>Securing LLMs from Prompt Injection Attacks</b>
+    <br>Large language models (LLMs) are increasingly powerful for a wide variety of tasks. One common use case is when a user asks a question in terms of a text prompt, an LLM generates text as an answer. Despite the exciting potential of LLMs in serving society's needs, it has already been discovered that they can be exploited for malicious applications. In this work, I study <em>prompt injection</em>, a technique used by a hacker to embed malicious inputs into a text prompt to escape the security measure of an LLM system and make the LLM leak sensitive data or spread misinformation. I develop, <em>AutoGuard</em>, an automatic security system to safeguard LLMs from such prompt injection attacks. The core of <em>AutoGuard</em> is its Guard node that detects malign prompts. I implement the Guard node with one of four detection approaches: anomaly detection with few-shot learning, anomaly detection with zero-shot learning, signature detection with few-shot learning, and signature detection with zero-shot learning. These detection algorithms are powered by Google Gemini 1.5 Pro. My experiments show that my system is promising in securing LLMs from prompt injection attacks.
+    <br>
+    <br> The source code of my project is available at my <a href="https://gitlab.com/Yu1623/gensec-liu-yuxuan/">GitLab page</a>.
+    </td>
+  </tr>
 
 <tr>
     <td height="30" colspan="2" valign="top" class="style1" id="ai_imaging">
@@ -108,6 +116,12 @@
         </td>
     </tr>
 
+<tr>
+  <td height="30" colspan="2" valign="top" class="style1" id="virus_evolution">
+      <b>Alignment-free Analyses in Predicting Crucivirus Evolution</b>
+    <br> For a long time, scientists had believed that viruses could only contain RNA or DNA but never both. However, the discovery of the crucivirus, a type of virus possessing the characteristics of a circular rep-encoding single-stranded DNA virus and a capsid gene similar to the capsid gene of RNA tombusvirus, challenged the prevailing paradigm of viral evolution. <em>What is the relationship between the crucivirus and viruses that only have DNA or RNA?</em> In this project, we investigate the evolution of the crucivirus as well as its relations with DNA and RNA viruses through four alignment-free analyses: genome sense prediction, pairwise comparison, k-mer similarity between CP and Rep genes, and comparison of k-mer between genomes. Genome sense prediction helped identify genomes that had recently undergone horizontal genetic transfer. Pairwise comparison revealed distinct evolutionary processes for the CP and Rep genes of the same crucivirus genome and discovered two genomes, <em>Cruci_CruV_319</em> and <em>Cruci_CruV_320</em>, that may have recently diverged from their closest common ancestor. K-mer similarity between CP and Rep genes helped us compare the similarity between CP and Rep of crucivirus, DNA virus, and RNA virus. Finally, comparisons of k-mer between genomes, specifically between DNA virus and crucivirus, showed possible locations of horizontal genetic transfer between DNA virus and crucivirus.
+    </td>
+  </tr>
 
     </table>
 
